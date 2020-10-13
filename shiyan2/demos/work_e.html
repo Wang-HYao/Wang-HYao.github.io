@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>任务e</title>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+	attribute vec3 vPosition;
+	void main(){
+		gl_Position = vec4(vPosition,1.0);
+	}
+	</script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+	precision mediump float;
+	void main(){
+		gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+	}
+	</script>
+
+    <script type="text/javascript" src="../js/common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../js/common/initShaders.js"></script>
+    <script type="text/javascript" src="../js/common/gl-matrix-min.js"></script>
+
+    <script type="text/javascript" src="../js/ch02/work_e.js"></script>
+	<script type="text/javascript">
+	<!-- 
+	function MM_jumpMenu(targ,selObj,restore){ //v3.0 
+	eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'"); 
+	if (restore) selObj.selectedIndex=0; 
+	} 
+	//--> 
+	</script>
+</head>
+
+
+<body>
+    <div style="margin: 0 0 0 720px"><h2>任务e</h2></div>
+    <div style="margin: 0 500px"><canvas style="text-align: center;" id="gl-canvas" width="512" height="512">你的浏览器不支持HTML5 canvas元素</canvas></div>
+	<p style="text-align: center;">层数调节:0<input type="range" min="0" max="7" value="0" onchange="Layer();initTriangles();" id="lay"/>7</br></p>
+	<p style="text-align: center;">请输入0—7的数字以表示层数(数字大于7可能会导致页面崩溃):<input type="text" onchange="Layer_text();initTriangles();" id='lay_text' /></br></p>
+	<p style="text-align: center;">旋转角度调节:0<input type="range" min="0" max="360" value="0" onchange="The();initTriangles();" id="th"/>360</br></p>
+	<p style="text-align: center;">请输入数字以表示度数:<input type="text" onchange="The_text();initTriangles();" id="th_text"/></br></p>
+	<form style="text-align: center;" action="" method="get">
+		<label>选择查看作业：</label> 	
+		<select  name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+			<option value="work_e.html">任务e</option>
+			<option value="../work_a.html">任务a</option>
+			<option value ="work_b.html">任务b</option>
+			<option value="work_c.html">任务c</option>
+			<option value="work_d.html">任务d</option>
+		</select>
+	</form>
+</body>
+
+
+</html>
