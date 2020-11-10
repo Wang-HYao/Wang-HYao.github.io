@@ -25,3 +25,9 @@
 | ---- | ---- |
 |[实验3-1](shiyan3/demos/chap3-demo-3.html)|[实验3-2 简化绘画](shiyan3/demos/chap3-demo-4.html)|
 
+### 第4章
+
+|    |    |    |
+| ---- | ---- | ---- |
+|[实验4-1](shiyan4/html/lab04_a.html)|[实验4-2](shiyan4/html/lab04_b.html)|[实验4-3](shiyan4/html/lab.html)|
+
