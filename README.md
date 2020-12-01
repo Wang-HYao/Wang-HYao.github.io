@@ -35,4 +35,4 @@
 
 |    | 
 | ---- |
-|[实验5](shiyan5/lab/lab05/lab05_a.html)|
+|[实验5](lab/lab05/lab05_a.html)|
