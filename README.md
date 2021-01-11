@@ -42,3 +42,10 @@
 |    | 
 | ---- |
 |[实验6](shiyan6/index.html)|
+
+
+### 第7章
+
+|    | 
+| ---- |
+|[实验7](shiyan7/index.html)|
